@@ -1,0 +1,373 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+[class*="col-"] {float: left; padding: 0; width: 100%;}
+
+@media only screen and (min-width: 320px){
+	/*Tablet*/
+	.col-s-1{width: 8.33%;}
+	.col-s-2{width: 16.66%;}
+	.col-s-3{width: 25%;}
+	.col-s-4{width: 33.33%;}
+	.col-s-5{width: 41.66%;}
+	.col-s-6{width: 50%;}
+	.col-s-7{width: 58.33%;}
+	.col-s-8{width: 66.66%;}
+	.col-s-9{width: 75%;}
+	.col-s-10{width: 83.33%;}
+	.col-s-11{width: 91.66%;}
+	.col-s-12{width: 100%;}
+
+	.header{
+		background-position: center;
+		height: auto;
+	}
+
+	.header .logo{
+		padding-top: auto;
+		padding-left: auto;
+	}
+
+	.header .judul h1{
+		text-align: center;
+	}
+
+	.header .judul h2{
+		text-align: center;
+	}
+
+	.sby{
+		height: auto;
+	}
+
+	.sby h1{
+		padding-top: 0;
+	}
+
+
+	.wisata img{
+		width: 300px;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	/*Desktop*/
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.66%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.66%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.66%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.66%;}
+	.col-12{width: 100%;}
+
+	.header{
+		height: 400px;
+	}
+
+	.header .logo{
+		padding-top: 55px;
+		padding-left: 90px;
+	}
+
+	.header .judul h1{
+		text-align: left;
+		padding-top: 50px;
+	}
+
+	.header .judul h2{
+		text-align: left;
+	}
+
+	.sby{
+		height: 700px;
+	}
+
+	.sby h1{
+		padding-top: 100px;
+	}
+
+	.wisata img{
+		width: 550px;
+		height: auto;
+	}
+}
+
+.header{
+	background: url(pahlawan.jpg) no-repeat center;
+	background-size: cover;
+	/*height: 400px;*/
+}
+
+.header .logo{
+/*	padding-top: 50px;
+	padding-left: 90px;*/
+	text-align: center;
+}
+
+.header .logo img{
+	width: 200px;
+	height: auto;
+}
+
+.header .judul h1{
+	/*padding-top: 50px;*/
+	margin-top: 50px;
+	font-family: Bahnschrift;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.header .judul h2{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.menu{
+	background: rgb(112, 3, 3);
+	float: left;
+	/*position: fixed;*/
+}
+
+.menu a{
+	padding: 20px;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Bahnschrift;
+	display: block;
+}
+
+.menu a:hover{
+	color: red;
+	background: white;
+}
+
+.sby{
+	background: url(tugu2.png) no-repeat center;
+	background-size: cover;
+	float: left;
+}
+
+
+.sby h1{
+	font-family: Bahnschrift;
+	/*padding-top: 100px;*/
+	font-size: 60px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	/* position: absolute;
+	margin-top: 180px;
+	left: 450px; */
+}
+
+.sby p{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	/* position: absolute;
+	margin-top: 380px;
+	left: 350px; */
+}
+
+.seni{
+	background: rgb(5, 3, 55);
+	height: auto;
+	padding: 20px; 
+}
+
+.seni h1{
+	font-family: Bahnschrift;
+	font-size: 40px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.seni .left h1{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.seni .left img{
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.seni .left p{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: justify;
+	color: #fff;
+	background: rgb(2, 58, 75);
+	padding: 20px;
+}
+
+.seni .right h1{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.seni .right img{
+	width: 325px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.seni .right p{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: justify;
+	color: #fff;
+	background: rgb(2, 58, 75);
+	padding: 20px;
+}
+
+.wisata{
+	background: rgb(5, 3, 55);
+	height: auto;
+	padding: 20px;
+}
+
+.wisata h1{
+	font-family: Bahnschrift;
+	font-size: 40px;
+	font-weight: 100;
+	padding: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.wisata h2{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.wisata img{
+/*	width: 550px;
+	height: auto;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wisata h4{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	font-weight: 100;
+	/* text-transform: uppercase; */
+	text-align: center;
+	color: #fff;
+	background:  rgb(2, 58, 75);
+	padding: 20px;
+	width: auto;
+	display: block;
+}
+
+.kuliner{
+	background: rgb(5, 3, 55);
+	height: auto;
+	padding: 20px; 
+}
+
+.kuliner h1{
+	font-family: Bahnschrift;
+	font-size: 40px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.kuliner .left h1{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.kuliner .left img{
+	width: 300px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kuliner .left p{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: justify;
+	color: #fff;
+	background: rgb(2, 58, 75);
+	padding: 20px;
+}
+
+.kuliner .right h1{
+	font-family: Bahnschrift;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.kuliner .right img{
+	width: 384px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kuliner .right p{
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: justify;
+	color: #fff;
+	background:  rgb(2, 58, 75);
+	padding: 20px;
+}
