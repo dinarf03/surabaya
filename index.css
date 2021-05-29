@@ -140,7 +140,7 @@ body{
 }
 
 .menu{
-	background: rgb(112, 3, 3);
+	background: #6D7993;
 	float: left;
 	/*position: fixed;*/
 }
@@ -195,7 +195,7 @@ body{
 .seni{
 	background: rgb(5, 3, 55);
 	height: auto;
-	padding: 20px; 
+	padding: 20px;
 }
 
 .seni h1{
@@ -308,7 +308,7 @@ body{
 .kuliner{
 	background: rgb(5, 3, 55);
 	height: auto;
-	padding: 20px; 
+	padding: 20px;
 }
 
 .kuliner h1{
@@ -370,4 +370,16 @@ body{
 	color: #fff;
 	background:  rgb(2, 58, 75);
 	padding: 20px;
+}
+
+
+.profile{
+	font-family: fantasy;
+	font-size: 25px;
+	background: rgb(5, 3, 55);
+	color: white;
+}
+
+.profile h2{
+	margin-left: 20px;
 }
